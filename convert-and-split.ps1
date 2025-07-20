@@ -1,3 +1,26 @@
+<#
+.SYNOPSIS
+    A PowerShell script to convert structured Word documents into a multi-file Markdown project.
+
+.DESCRIPTION
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+.NOTES
+    Author: Michael Ragsdale
+    Copyright (c) 2025 Michael Ragsdale
+#>
+
 # --- SCRIPT TO CONVERT DOCX AND SPLIT INTO A NESTED, NUMBERED FOLDER STRUCTURE ---
 
 # The 'param' block defines the parameters (or command-line options) the script accepts.
